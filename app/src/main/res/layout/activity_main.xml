@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="75dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/pavancolortext3"
+        android:textSize="70px"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:autoLink="web"
+        android:layout_height="31dp"
+        android:text="👉  https://github.com/pavanb0"
+        android:textAlignment="center"
+        android:textColor="@color/pavancolortext"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="412dp"
+        android:layout_height="461dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.727">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="143dp"
+                android:layout_height="71dp"
+                android:elegantTextHeight="true"
+                android:text="1"
+                android:textSize="70px"
+                android:textAlignment="center" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:textSize="70px"
+
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/pavancolortext2"
+                android:text="3"
+                android:textSize="70px"
+
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="70px"
+
+                android:text="4"
+                android:textAlignment="center" />
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:text="5"
+                android:textSize="70px"
+
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="70px"
+                android:textColor="@color/pavancolortext2"
+
+                android:text="6"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:textSize="70px"
+
+                android:textAlignment="center" />
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:text="8"
+                android:textSize="70px"
+
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:textSize="70px"
+                android:textColor="@color/pavancolortext2"
+
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="C"
+                android:textSize="65px"
+
+                android:textAlignment="center" />
+
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="0"
+                android:textSize="70px"
+
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="."
+                android:textAlignment="center"
+                android:textColor="@color/pavancolortext2"
+
+                android:textSize="70px" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/addons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="61dp"
+                android:textSize="70px"
+                android:layout_height="175dp"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="63dp"
+                android:textSize="70px"
+                android:layout_height="175dp"
+                android:text="*" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="65dp"
+                android:layout_height="175dp"
+                android:textSize="70px"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="66dp"
+                android:layout_height="175dp"
+                android:textSize="70px"
+                android:textColor="@color/pavancolortext2"
+
+                android:text="+" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="91dp"
+                android:layout_height="match_parent"
+                android:textSize="40px"
+                android:textColor="@color/pavancolortext2"
+
+                android:text="Enter" />
+        </LinearLayout>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="407dp"
+        android:layout_height="38dp"
+        android:text="Backspace"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
