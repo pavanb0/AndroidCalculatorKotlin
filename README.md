@@ -1,3 +1,3 @@
 # AndroidCalulatorKotlin
 simple calculator
-very bascic calculator written in Kotlin 
+very basic calculator written in Kotlin 
